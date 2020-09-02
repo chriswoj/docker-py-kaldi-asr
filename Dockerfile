@@ -1,4 +1,5 @@
-FROM quay.io/mpuels/docker-kaldi-asr:2018-06-21
+#FROM quay.io/mpuels/docker-kaldi-asr:2018-06-21
+FROM uptospace/docker-kaldi-asr:latest
 
 ARG DIR_PKGCONFIG=/usr/lib/pkgconfig
 
